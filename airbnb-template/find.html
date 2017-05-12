@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kocoonz</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a href="./hote">Proposer son logement</a>
+            </li>
+            <li>
+                <a href="/login">Login</a>
+            </li>
+            <li>
+                <a href="/register">S'enregistrer</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <div style="position: fixed; z-index: 25"> 
+      <header id="top" class="header" style="height: 50px;">
+          <div class="text-vertical-center">
+            <div class="container">
+                <form>
+                  <div class="row">
+                      <div class="col-xs-offset-1 col-xs-4">
+                        <input type="text" class="form-control" placeholder="Destination">
+                      </div>
+                      <div class="col-xs-2">
+                        <input type="text" class="form-control" placeholder="date de début">
+                      </div>
+                      <div class="col-xs-2">
+                        <input type="text" class="form-control" placeholder="date de fin">
+                      </div>
+                      <div class="col-xs-2">
+                        <input type="submit" class="btn btn-dark" value="Rechercher">
+                      </div>
+                   </div>
+                 </form>
+              </div>
+          </div>
+      </header>
+
+      <!-- About -->
+      <section id="about" style="background-color: #FFFFFF">
+          <div class="container">
+             <div class="row">
+                <div class="col-xs-6">
+                  <h3>25 locations</h3>
+                </div>
+              </div>
+          </div>
+          <!-- /.container -->
+      </section>
+    </div>
+    
+    <section id="location" style="padding-top:120px;">                  
+        <div class="container">    
+            <div class="row">
+              <div class="col-xs-8">
+                <div class="row">
+                    <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-4">
+                      <div class="thumbnail">
+                        <img class="img-responsive" src="./img/appart-1.jpg">
+                        <div class="caption">
+                          <h5>Design et calme au cœur de la ville</h5>
+                          <p><span> 250€</span> Logement entier</p>
+                          <div class="text-center"><a href="#" class="btn btn-dark" role="button">Reserver</a></div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /.row -->
+              <div class="col-xs-4">
+                <div id="mapid" style="width: 250px; height:350px; position:fixed;">  
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Start Bootstrap</strong>
+                    </h4>
+                    <p>3481 Melrose Place
+                        <br>Beverly Hills, CA 90210</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/map.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
